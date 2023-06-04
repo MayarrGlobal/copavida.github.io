@@ -379,7 +379,6 @@ h6 {
   height: 100vh;
   background-color: rgba(4, 12, 21, 0.8);
   overflow: hidden;
-
 }
 
 
@@ -393,8 +392,12 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  padding: 30px 0;
 }
 
+#heroCarousel {
+  margin-top: 40px;
+}
 
 
 #hero .carousel-container {
@@ -427,8 +430,9 @@ h6 {
 }
 
 #hero .carousel-inner .carousel-item {
+  object-fit: cover;
   transition-property: opacity;
-  background-position: bottom;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
